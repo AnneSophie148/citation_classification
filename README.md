@@ -20,8 +20,9 @@ This folder contains several scripts for citation classification:
   - `get_citation_sequence.py`: Extracts citation sequences from both corpora, output as lists.  
   - `utils.py`: Helper functions used by `finetune_for_citation_classification.py`.
 
-- **Prompt Instructions:**  
-  - `Prompt_instructions_citation_classification.pdf`: Instructions used for designing GPT-4-based prompts for citation classification.
+### `Prompt`
+
+This subfolder contains the two prompt versions tested and csvs with predictions for each of context window obtained with "Prompt-V2".
 
 ### `essai_modele_Jiang`
 
@@ -54,7 +55,8 @@ Ce dossier contient plusieurs scripts pour la classification des citations :
   - `get_citation_sequence.py` : Extraction des séquences de citations des deux corpus, sorties sous forme de listes.  
   - `utils.py` : Fonctions auxiliaires utilisées par `finetune_for_citation_classification.py`.  
 
-- **Instruction pour le prompt de GPT-4** : Fichier Prompt_instructions_citation_classification.pdf
+- **Sous-dossier `Prompt`** 
+  - Contient les deux versions du prompt ainsi que les csv des prédictions obtenues avec "Prompt-V2".
 
 - **Sous-dossier `essai_modele_Jiang`**  
   - `fine_tune_several_vectors.py` : Script principal pour reproduire le modèle de **Jiang & Chen (2023)**.  
